@@ -15,24 +15,24 @@ Your database is modeled as follows:
 
 The tables are described as follows:
 
-**Movies**
+**Filmes**
 
 Table responsible for storing information about movies.
 
-**Actors**
+**Atores**
 
 Table responsible for storing information about actors.
 
-**Genres**
+**Generos**
 
 Table responsible for storing movie genres.
 
-**MovieCast**
+**ElencoFilme**
 
 Table responsible for representing a many-to-many relationship between movies and actors, meaning an actor can work in many movies, and movies
 can have many actors.
 
-**MovieGenres**
+**FilmesGenero**
 
 Table responsible for representing a many-to-many relationship between movies and genres, meaning a movie can have more than one genre, and a genre can be part of many movies.
 
@@ -44,48 +44,48 @@ You will need to create several queries to return the following data. Below each
 
 ## 1 - Fetch the name and year of the movies
 
-![Exercise 1](Imagens/1.png)
+![Exercise 1](Solutions/Solution1.jpg)
 
 ## 2 - Fetch the name and year of the movies, sorted in ascending order by year
 
-![Exercise 2](Imagens/2.png)
+![Exercise 2](Solutions/Solution2.jpg)
 
 ## 3 - Fetch the movie "Back to the Future," returning the name, year, and duration
 
-![Exercise 3](Imagens/3.png)
+![Exercise 3](Solutions/Solution3.jpg)
 
 ## 4 - Fetch the movies released in 1997
 
-![Exercise 4](Imagens/4.png)
+![Exercise 4](Solutions/Solution4.jpg)
 
 ## 5 - Fetch the movies released AFTER the year 2000
 
-![Exercise 5](Imagens/5.png)
+![Exercise 5](Solutions/Solution5.jpg)
 
 ## 6 - Fetch the movies with a duration greater than 100 and less than 150, sorted by duration in ascending order
 
-![Exercise 6](Imagens/6.png)
+![Exercise 6](Solutions/Solution6.jpg)
 
 ## 7 - Fetch the number of movies released in the year, grouping by year, sorting by duration in descending order
 
-![Exercise 7](Imagens/7.png)
+![Exercise 7](Solutions/Solution7.jpg)
 
 ## 8 - Fetch male actors, returning FirstName, LastName
 
-![Exercise 8](Imagens/8.png)
+![Exercise 8](Solutions/Solution8.jpg)
 
 ## 9 - Fetch female actors, returning FirstName, LastName, and sorting by FirstName
 
-![Exercise 9](Imagens/9.png)
+![Exercise 9](Solutions/Solution9.jpg)
 
 ## 10 - Fetch the name of the movie and the genre
 
-![Exercise 10](Imagens/10.png)
+![Exercise 10](Solutions/Solution10.jpg)
 
 ## 11 - Fetch the name of the movie and the genre of type "Mystery"
 
-![Exercise 11](Imagens/11.png)
+![Exercise 11](Solutions/Solution11.jpg)
 
 ## 12 - Fetch the name of the movie and the actors, returning FirstName, LastName, and their Role
 
-![Exercise 12](Imagens/12.png)
+![Exercise 12](Solutions/Solution12.jpg)
